@@ -1,5 +1,4 @@
 import pygame
-import spritesheet_class
 
 pygame.init()
 
@@ -20,7 +19,7 @@ class Spritesheet:
         return image
 
 
-sprite_sheet = spritesheet_class.Spritesheet(sprite_sheet_image)
+sprite_sheet = Spritesheet(sprite_sheet_image)
 
 animation = []
 animation_steps = 3
